@@ -1,0 +1,150 @@
+object Form1: TForm1
+  Left = 328
+  Height = 452
+  Top = 33
+  Width = 559
+  Caption = 'Form1'
+  ClientHeight = 452
+  ClientWidth = 559
+  DesignTimePPI = 120
+  object CBKode: TComboBox
+    Left = 249
+    Height = 28
+    Top = 35
+    Width = 261
+    ItemHeight = 20
+    Items.Strings = (
+      'A01'
+      'B02'
+      'C03'
+      'D04'
+    )
+    TabOrder = 0
+    Text = 'Kode'
+  end
+  object EQTY: TEdit
+    Left = 249
+    Height = 28
+    Top = 73
+    Width = 261
+    TabOrder = 1
+  end
+  object ENama: TEdit
+    Left = 249
+    Height = 28
+    Top = 112
+    Width = 261
+    TabOrder = 2
+  end
+  object EHarga: TEdit
+    Left = 249
+    Height = 28
+    Top = 152
+    Width = 261
+    TabOrder = 3
+  end
+  object ESubTotal: TEdit
+    Left = 249
+    Height = 28
+    Top = 192
+    Width = 261
+    TabOrder = 4
+  end
+  object EDiskon: TEdit
+    Left = 249
+    Height = 28
+    Top = 232
+    Width = 261
+    TabOrder = 5
+  end
+  object ETotal: TEdit
+    Left = 248
+    Height = 28
+    Top = 272
+    Width = 261
+    TabOrder = 6
+  end
+  object btnHitung: TButton
+    Left = 56
+    Height = 32
+    Top = 344
+    Width = 135
+    Caption = 'hitung'
+    OnClick = btnHitungClick
+    TabOrder = 7
+  end
+  object btnUlangi: TButton
+    Left = 216
+    Height = 32
+    Top = 344
+    Width = 135
+    Caption = 'ulangi'
+    OnClick = btnUlangiClick
+    TabOrder = 8
+  end
+  object btnClose: TButton
+    Left = 374
+    Height = 32
+    Top = 344
+    Width = 135
+    Caption = 'keluar'
+    OnClick = btnCloseClick
+    TabOrder = 9
+  end
+  object kode: TLabel
+    Left = 56
+    Height = 20
+    Top = 35
+    Width = 84
+    Caption = 'kode barang'
+    ParentColor = False
+  end
+  object kode1: TLabel
+    Left = 56
+    Height = 20
+    Top = 73
+    Width = 54
+    Caption = 'quantity'
+    ParentColor = False
+  end
+  object kode2: TLabel
+    Left = 56
+    Height = 20
+    Top = 112
+    Width = 88
+    Caption = 'nama barang'
+    ParentColor = False
+  end
+  object kode3: TLabel
+    Left = 56
+    Height = 20
+    Top = 152
+    Width = 85
+    Caption = 'harga satuan'
+    ParentColor = False
+  end
+  object kode4: TLabel
+    Left = 56
+    Height = 20
+    Top = 192
+    Width = 58
+    Caption = 'sub total'
+    ParentColor = False
+  end
+  object kode5: TLabel
+    Left = 56
+    Height = 20
+    Top = 232
+    Width = 43
+    Caption = 'diskon'
+    ParentColor = False
+  end
+  object kode6: TLabel
+    Left = 56
+    Height = 20
+    Top = 272
+    Width = 72
+    Caption = 'total bayar'
+    ParentColor = False
+  end
+end

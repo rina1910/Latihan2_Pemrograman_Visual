@@ -1,0 +1,158 @@
+object Form1: TForm1
+  Left = 295
+  Height = 458
+  Top = 33
+  Width = 534
+  Caption = 'Form1'
+  ClientHeight = 458
+  ClientWidth = 534
+  DesignTimePPI = 120
+  object edtNama: TEdit
+    Left = 264
+    Height = 28
+    Top = 24
+    Width = 223
+    TabOrder = 0
+  end
+  object edtGapok: TEdit
+    Left = 264
+    Height = 28
+    Top = 104
+    Width = 223
+    TabOrder = 1
+  end
+  object cbJabatan: TComboBox
+    Left = 264
+    Height = 28
+    Top = 64
+    Width = 222
+    ItemHeight = 20
+    Items.Strings = (
+      'direktur'
+      'manager'
+      'karyawan'
+    )
+    OnChange = cbJabatanChange
+    TabOrder = 2
+    Text = 'pilih jabatan'
+  end
+  object Label1: TLabel
+    Left = 80
+    Height = 20
+    Top = 32
+    Width = 98
+    Caption = 'nama pegawai'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 80
+    Height = 20
+    Top = 72
+    Width = 50
+    Caption = 'jabatan'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 80
+    Height = 20
+    Top = 112
+    Width = 70
+    Caption = 'gaji pokok'
+    ParentColor = False
+  end
+  object rgStatus: TRadioGroup
+    Left = 80
+    Height = 86
+    Top = 149
+    Width = 402
+    AutoFill = True
+    Caption = 'status'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 2
+    ClientHeight = 61
+    ClientWidth = 398
+    Columns = 2
+    TabOrder = 3
+    object rbTetap: TRadioButton
+      Left = 6
+      Height = 61
+      Top = 0
+      Width = 185
+      Caption = 'tetap'
+      OnClick = rbTetapChange
+      TabOrder = 0
+    end
+    object rbHonorer: TRadioButton
+      Left = 191
+      Height = 61
+      Top = 0
+      Width = 201
+      Caption = 'honorer'
+      OnClick = rbHonorerChange
+      TabOrder = 1
+    end
+  end
+  object Label4: TLabel
+    Left = 80
+    Height = 20
+    Top = 248
+    Width = 108
+    Caption = 'status tunjangan'
+    ParentColor = False
+  end
+  object edtTunjangan: TEdit
+    Left = 264
+    Height = 28
+    Top = 248
+    Width = 223
+    TabOrder = 4
+  end
+  object btnHitung: TButton
+    Left = 128
+    Height = 31
+    Top = 288
+    Width = 262
+    Caption = 'total gaji'
+    Color = clActiveBorder
+    OnClick = btnHitungClick
+    TabOrder = 5
+  end
+  object Label5: TLabel
+    Left = 80
+    Height = 20
+    Top = 328
+    Width = 69
+    Caption = 'gaji bersih'
+    ParentColor = False
+  end
+  object edtTotalGaji: TEdit
+    Left = 264
+    Height = 28
+    Top = 328
+    Width = 223
+    TabOrder = 6
+  end
+  object btnIsiData: TButton
+    Left = 80
+    Height = 31
+    Top = 368
+    Width = 198
+    Caption = 'isi data lagi'
+    OnClick = btnIsiDataClick
+    TabOrder = 7
+  end
+  object btnClose: TButton
+    Left = 289
+    Height = 31
+    Top = 368
+    Width = 198
+    Caption = 'close'
+    OnClick = btnCloseClick
+    TabOrder = 8
+  end
+end
