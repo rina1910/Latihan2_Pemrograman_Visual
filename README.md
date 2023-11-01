@@ -3,7 +3,7 @@
 | <strong>Nama</strong>      | <strong>Riris Naomi Gurning</strong>  |
 | ----------- | ----------- |
 | <strong>NIM</strong>     | <strong>312010190</strong>       |
-| <strong>Kelas</strong>   | <strong>TI.20.A.1</strong>        |
+| <strong>Kelas</strong>   | <strong>TI.20.A.RPL.-1</strong>        |
 | <strong>Dosen Pengampu</strong> | <strong>Agung Nugroho, S.Kom., M.Kom.</strong> |
 
 ## 1. Program Menghitung Gaji Karyawan
