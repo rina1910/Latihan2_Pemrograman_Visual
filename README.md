@@ -8,9 +8,12 @@
 
 ## 1. Program Menghitung Gaji Karyawan
 
-Hitung gaji pegawai dengan jabatan direktur dengan status tetap, \*berlaku juga untuk lainnya
-
+Tampilan Utama
 ![hasil](hasil/Gaji_Karyawan.png)
+
+Hitung gaji pegawai dengan jabatan manager dengan status tetap, \*berlaku juga untuk lainnya
+
+![hasil](hasil/Gaji_Karyawan2.png)
 
 ## 2. Program Penjualan Barang
 
@@ -20,5 +23,13 @@ Hitung penjualan barang dengan ketentuan:
 - Quantity pembelian tidak boleh lebih dari 10.
 - Data yang dimasukan harus divalidasi.
 
+Tampilan Utama
 ![hasil](hasil/Penjualan_Barang.png)
+
+Tampilan Ketika Data Yang Diinputkan Hanya Kode Barang(B02) Dan Quantity(5), \*berlaku juga untuk lainnya 
+![hasil](hasil/Penjualan_Barang2.png)
+
+Tampilan Ketika Data Yang Diinputkan Hanya Kode Barang(B02) Dan Quantity(12), \*berlaku juga untuk lainnya
+![hasil](hasil/Penjualan_Barang3.png)
+->Karena Quantity Lebih Dari 10 Maka Tampilan Akan Keluar Seperti Itu, \*berlaku juga untuk lainnya
 
